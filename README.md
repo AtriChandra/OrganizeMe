@@ -8,7 +8,7 @@ A simple and interactive Todo App built using React.js. This app helps users org
 
 ## 🧑‍💻 Technologies Used
  - React.js: Frontend framework for building user interfaces
- -HTML & CSS: For basic structure and styling
+ - HTML & CSS: For basic structure and styling
  - JavaScript (ES6+): App logic and functionality
 
 ## 📸 Demo
