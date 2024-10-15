@@ -14,9 +14,14 @@ function AddTodo({ onNewItem }) {
   };
 
   const handleAddButtonClicked = () => {
+    if (todoName.trim() === "" || dueDate.trim() === "") {
+      alert("Please enter both a todo name and a due date!");
+      return;
+    }
+
     onNewItem(todoName, dueDate);
-    setDueDate("");
     setTodoName("");
+    setDueDate("");
   };
 
   return (
@@ -31,7 +36,11 @@ function AddTodo({ onNewItem }) {
           />
         </div>
         <div className="col-4">
-          <input type="date" value={dueDate} onChange={handleDateChange} />
+          <input
+            type="date"
+            value={dueDate}
+            onChange={handleDateChange}
+          />
         </div>
         <div className="col-2">
           <button
