@@ -30,7 +30,7 @@ function AddTodo({ onNewItem }) {
         <div className="col-6">
           <input
             type="text"
-            placeholder="Enter Todo here"
+            placeholder="Enter your task here"
             value={todoName}
             onChange={handleNameChange}
           />
