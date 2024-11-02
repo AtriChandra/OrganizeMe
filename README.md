@@ -1,4 +1,4 @@
-# 📝 Todo App
+# 📝 OrganizeMe
 A simple and interactive Todo App built using React.js. This app helps users organize tasks efficiently by adding and deleting todos along with due dates.
 
 ## 🎯 Features
