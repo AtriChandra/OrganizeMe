@@ -12,5 +12,6 @@ A simple and interactive Todo App built using React.js. This app helps users org
  - JavaScript (ES6+): App logic and functionality
 
 ## 📸 Demo
-![image](https://github.com/user-attachments/assets/7c2a1e53-a543-4688-8705-ad9ced68fe44)
+![image](https://github.com/user-attachments/assets/22290a32-8fe8-407e-960b-3cb8d9d7d7f2)
+
 
